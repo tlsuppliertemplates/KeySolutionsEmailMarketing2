@@ -1,0 +1,277 @@
+.banner_img img{
+    width:100%;
+}
+.logo{
+    margin:20px 0 16px 30px;
+    display: block;
+}
+.logo img{
+    width:auto;
+}
+.product_info{
+    padding: 25px 20px 40px 45px !important;
+    background: #f4f4f4;    
+}
+.inner_banner_text {
+	width: 49%;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    margin: 0 auto;
+}
+.inner_banner_text h1 {
+    margin-left: 50px;
+}
+.inner_banner_text h1 span {
+	color: #fff;
+	font-family: RobotoCondensed-Light;
+	font-size: 46px;
+    font-weight: 400;
+    line-height: 80px;
+	margin: 0 0 50px 0;
+    padding: 0;
+}
+.inner_banner_text h2 {
+    margin-left: 50px;
+	color: #fff;
+	font-family: Roboto-Light;
+	font-size: 22px;
+    line-height: 37px;
+    letter-spacing: 0.8px;
+}
+.product_info h2{
+    font-family: RobotoCondensed-Light;
+    font-size: 33px;
+    color: #890000;
+    line-height: 48px;
+    font-weight: 500;
+    margin: 0 0 16px;
+}
+.product_info p{
+    font-size: 18px;
+    font-family: Roboto-Light;
+    line-height: 28px;
+    margin: 0 0 24px;
+    color: #444;
+}
+.product_info_left{
+    padding-left: 0;
+}
+.product_info_left img{
+    width:100%;
+    /* border-radius: 4px; */
+    /* box-shadow:6px 5px 6px #e3e3e3; */
+}
+.product_info_right h3{ 
+	font-family: Roboto-Regular;
+    margin:10px 0 20px 0;
+}
+.product_info_right ul{
+    padding-left: 30px;
+    margin: 0 0 35px;
+}
+.product_info_right ul li{
+    font-size: 18px;
+    font-family: Roboto-Light;
+    color: #444;
+    line-height: 28px;
+    padding:10px 0;
+}
+.product_info_right a {
+    background-color: #890000;
+    color: #fff;
+    font-family: Roboto-Light;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 10px 25px 10px;
+    letter-spacing: 0.2px;
+}
+.product_info_right a:hover{
+    background-color:#00024d;
+}
+.contact_us{
+    background: url(../images/banner2.jpg) no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    padding:55px 0 40px;
+    margin:0;
+}
+.contact_us p{
+    text-align:center;
+    font-size: 18px;
+    font-family: Roboto-Light;
+    line-height: 28px;
+    color:#ffffff;
+}
+.contact_us a{
+    text-decoration:underline;
+}
+.contact_us a:hover{
+    color: #a3a3a3;
+    font-weight: normal;
+    text-decoration:none;
+}
+/* .banner_img{
+    width:100%;
+    background: url(../images/ai5.png) no-repeat;
+    background-size:cover;
+    height: 600px;
+    background-position: center center;
+} */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .logo {
+        margin: 20px 0 20px 10px;
+    }
+    .inner_banner_text {
+        width: 60% !important;
+        margin-top: 0 !important;
+        top: 5%;
+    }
+    .inner_banner_text h1 {
+        margin-left: 30px;
+    }
+    .inner_banner_text h2 {
+        margin-left: 30px;
+    }
+    .inner_banner_text h1 span {
+        margin: 0 0 30px 0;
+    }
+}
+@media only screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+    .top_padding {
+        padding: 0;
+    }
+    .logo {
+        margin: 20px 0 20px 10px;
+    }
+    .inner_banner_text {
+        width: 56% !important;
+        margin-top: 0 !important;
+        top: 15% !important;
+    }
+    .inner_banner_text h1 {
+        margin-left: 30px;
+    }
+    .inner_banner_text h2 {
+        margin-left: 30px !important;
+    }
+    .inner_banner_text h1 span {
+        margin: 0 0 30px 0;
+        line-height: 70px;
+    } 
+    .product_info {
+        padding: 25px 20px 40px 25px !important;
+    }
+    .contact_us {
+        padding:30px 10px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .inner_banner_text h1 span {
+        font-size: 38px;
+        line-height: 60px;
+    }
+    .inner_banner_text h2 {
+        font-size: 22px;
+        line-height: 38px;
+    }  
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .mobile_no_pad{
+        padding:0;
+    }
+    .logo {
+        margin: 12px 0 10px 0;
+    }
+    .logo img {
+        width: 150px;
+    }
+    .inner_banner_text {
+        width: 65%;
+        left: auto;
+        margin: 0 auto;
+        top: 0;
+    }
+    .inner_banner_text h1 {
+        margin-left: 12px;
+        margin-top: 8px;
+        margin-bottom: 11px;
+    }
+    .inner_banner_text h1 span {
+        font-size: 20px;
+        line-height: 32px;
+        margin: 0;
+        padding: 0;
+    }
+    .inner_banner_text h2 {
+        margin-left: 12px !important;
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 0;
+    }
+    .inner_banner_text h2 br{
+        display: none;
+    }
+    .product_info {
+        padding: 18px 10px 30px 12px !important;
+    }
+    .product_info h2 {
+        font-size: 19px;
+        line-height: 28px;
+        font-weight: 600;
+        margin: 0 0 16px;
+    }
+    .product_info_right h3 {
+        margin: 0 0 5px 0;
+        font-size: 17px;
+    }
+    .product_info_right ul {
+        padding-left: 22px;
+        margin: 0 0 25px;
+    }
+    .product_info_right ul li {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 6px 0;
+    }
+    .product_info_right a {
+        font-size: 16px;
+        padding: 8px 15px 8px;
+    }
+    .contact_us p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .contact_us {
+        padding: 25px 15px 20px;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+    
+    .logo img {
+        width: auto;
+    }
+    .inner_banner_text {
+        width:55%;
+    }
+    .inner_banner_text h1 {
+        margin-left: 20px;
+        margin-top: 28px;
+        margin-bottom: 24px;
+    }
+    .inner_banner_text h1 span {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .inner_banner_text h2 {
+        margin-left: 20px !important;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .product_info {
+        padding: 18px 10px 30px 22px !important;
+    }
+}
